@@ -51,8 +51,8 @@ local Button4 = Tab4:NewButton("Rivals ESP", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/G5123r35/Rivals-ESP/main/RivalsESP.lua"))()
 end)
 
-local Button4 = Tab4:NewButton("Rivals SilentAim", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/G5123r35/Rivals-ESP/main/RivalsESP.lua"))()
+local Button5 = Tab4:NewButton("Rivals SilentAim", function()
+    print("silent aim")
 end)
 
 

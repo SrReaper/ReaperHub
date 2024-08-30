@@ -28,7 +28,7 @@ local Tab3 = Init:NewTab("Jvoidluxx's Tools")
 local Tab4 = Init:NewTab("Rivals")
 
 local Section1 = Tab1:NewSection("Da Hood")
-local Section2 = Tab1:NewSection("Rivals")
+local Section2 = Tab4:NewSection("Rivals")
 local Section3 = Tab2:NewSection("Tools")
 local Section4 = Tab3:NewSection("Jvoidluxx's Tools")
 

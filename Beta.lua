@@ -1,7 +1,7 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consistt/Ui/main/UnLeaked"))()
 
 library.rank = "developer"
-local Wm = library:Watermark("Reaper & Jvoids ScriptHub | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
+local Wm = library:Watermark("ReaperHUB| v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
 local FpsWm = Wm:AddWatermark("fps: " .. library.fps)
 coroutine.wrap(function()
     while wait(.75) do

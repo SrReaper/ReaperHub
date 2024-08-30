@@ -28,9 +28,9 @@ local Tab3 = Init:NewTab("Jvoidluxx's Tools")
 local Tab4 = Init:NewTab("Rivals")
 
 local Section1 = Tab1:NewSection("Da Hood")
-local Section1 = Tab1:NewSection("Rivals")
-local Section2 = Tab3:NewSection("Tools")
-local Section3 = Tab4:NewSection("Jvoidluxx's Tools")
+local Section2 = Tab1:NewSection("Rivals")
+local Section3 = Tab2:NewSection("Tools")
+local Section4 = Tab3:NewSection("Jvoidluxx's Tools")
 
 local Label2 = Tab2:NewLabel("By ilyreaper on discord")
 local Label3 = Tab2:NewLabel("Fly is W.I.P so it doesnt work")
@@ -52,9 +52,8 @@ local Button4 = Tab4:NewButton("Rivals ESP", function()
 end)
 
 local Button5 = Tab4:NewButton("Rivals SilentAim", function()
-    print("silent aim")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/G5123r35/Rivals-SilentAim/main/RivalsSilentAim.lua"))()
 end)
-
 
 local Slider1 = Tab2:NewSlider("Speed Amount", "", true, "/", {min = 15, max = 100, default = 5}, function(value)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value

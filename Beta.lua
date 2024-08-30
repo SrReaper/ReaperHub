@@ -51,6 +51,11 @@ local Button4 = Tab4:NewButton("Rivals ESP", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/G5123r35/Rivals-ESP/main/RivalsESP.lua"))()
 end)
 
+local Button4 = Tab4:NewButton("Rivals SilentAim", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/G5123r35/Rivals-ESP/main/RivalsESP.lua"))()
+end)
+
+
 local Slider1 = Tab2:NewSlider("Speed Amount", "", true, "/", {min = 15, max = 100, default = 5}, function(value)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
 end)

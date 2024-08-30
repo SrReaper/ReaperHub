@@ -34,6 +34,7 @@ local Section4 = Tab3:NewSection("Jvoidluxx's Tools")
 
 local Label2 = Tab2:NewLabel("By ilyreaper on discord")
 local Label3 = Tab2:NewLabel("Fly is W.I.P so it doesnt work")
+local Label4 = Tab2:NewLabel("Also Infinity Yields Fly is detected on most new roblox games so please do not try it")
 
 local Button1 = Tab2:NewButton("InfiniteYield", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()

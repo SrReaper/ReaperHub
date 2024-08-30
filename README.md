@@ -1,1 +1,1 @@
-Isnt only a gui anymore it is a full script hub with only 3-5 scripts will add alot more and do a mass update
+Low Script Count Beta and combat warriors might crash u

@@ -68,4 +68,6 @@ local Slider3 = Tab2:NewSlider("Fly Speed", "", true, "/", {min = 15, max = 100,
     print("Fly Speed: " .. value)
 end)
 
+library:UpdateKeybind(Enum.KeyCode.RightAlt)
+
 local FinishedLoading = Notif:Notify("Loaded Successfully", 4, "success")

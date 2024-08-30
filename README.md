@@ -1,1 +1,1 @@
-Still very beta and is still the gui only(nothing added witch i plan on adding in the future)
+Isnt only a gui anymore it is a full script hub with only 3-5 scripts will add alot more and do a mass update

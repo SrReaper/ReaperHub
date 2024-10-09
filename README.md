@@ -1,4 +1,4 @@
 # Reaper Hub! 
-An upcoming keyless Hub that will have scripts for about 80 games
+I really am tired and will be remaking this soon enough!
 Loadstring : loadstring(game:HttpGet('https://raw.githubusercontent.com/SrReaper/ReaperHub/main/BetaOBF.lua'))()
 Gui:Right Shift
